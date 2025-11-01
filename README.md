@@ -8,7 +8,7 @@ Music Player Daemon (MPD) and related tools in Omarchy.
 1. **Installs MPD Core Components:**
     * Installs `mpd`, the music player daemon itself.
     * Installs `mpc`, a simple command-line client for MPD.
-    * Installs `[rmpc](https://mierak.github.io/rmpc/)`, a Rusty Tui client for MPD.
+    * Installs [rmpc](https://mierak.github.io/rmpc/), a Rusty Tui client for MPD.
 
 2. **Configures MPD:**
     * Creates a default configuration file at `~/.config/mpd/mpd.conf`.
@@ -23,7 +23,8 @@ Music Player Daemon (MPD) and related tools in Omarchy.
     * Enables and starts the `mpd` service for the current user.
 
 5. **Integrates with Media Players (MPRIS):**
-    * Installs the `mpd-mpris` plugin, which allows MPD (and thus `rmpc`) to be controlled by media keys and appear in system media controls.
+    * Installs the `mpd-mpris` plugin, which allows MPD (and thus `rmpc`)
+    to be controlled by media keys and appear in system media controls.
     * Enables and starts the `mpd-mpris` service.
 
 6. **Creates a Convenient Alias:**
