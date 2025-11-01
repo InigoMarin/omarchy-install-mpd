@@ -29,4 +29,4 @@ Music Player Daemon (MPD) and related tools in Omarchy.
 6. **Creates a Convenient Alias:**
     * Adds the alias `m` for the `rmpc` client to your `.bashrc`.
 
-7. Replaces Omarchhy Hypr Spotify bindings for MPD control with `rmpc`.
+7. Replaces Omarchy Hypr Spotify bindings for MPD control with `rmpc`.
